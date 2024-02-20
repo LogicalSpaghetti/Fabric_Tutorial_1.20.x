@@ -1,4 +1,4 @@
-package us.fiel;
+package us.spaghetti;
 
 import net.fabricmc.api.ClientModInitializer;
 

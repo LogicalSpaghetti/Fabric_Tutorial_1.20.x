@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "us.fiel.TutorialMod"
+          "us.spaghetti.TutorialMod"
 		],
 		"client": [
-			"us.fiel.TutorialModClient"
+			"us.spaghetti.TutorialModClient"
 		],
 		"fabric-datagen": [
-          "us.fiel.TutorialModDataGenerator"
+          "us.spaghetti.TutorialModDataGenerator"
 		]
 	},
 	"mixins": [
