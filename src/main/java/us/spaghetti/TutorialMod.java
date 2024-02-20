@@ -4,6 +4,8 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import us.spaghetti.block.ModBlocks;
+import us.spaghetti.item.ModItemGroups;
 import us.spaghetti.item.ModItems;
 
 public class TutorialMod implements ModInitializer {
@@ -12,6 +14,9 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
