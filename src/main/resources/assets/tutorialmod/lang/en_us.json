@@ -5,5 +5,12 @@
   "block.tutorialmod.ruby_block": "Ruby Block",
   "block.tutorialmod.raw_ruby_block": "Raw Ruby Block",
 
+  "block.tutorialmod.ruby_ore": "Ruby Ore",
+  "block.tutorialmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.tutorialmod.nether_ruby_ore": "Nether Ruby Ore",
+  "block.tutorialmod.endstone_ruby_ore": "Endstone Ruby Ore",
+
+  "block.tutorialmod.metal_detector": "Metal Detector",
+
   "itemGroup.ruby": "Ruby Tutorial Group"
 }

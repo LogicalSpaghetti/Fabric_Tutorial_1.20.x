@@ -21,8 +21,12 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
+                        entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
+                        entries.add(ModBlocks.NETHER_RUBY_ORE);
+                        entries.add(ModBlocks.ENDSTONE_RUBY_ORE);
 
-                        entries.add(Items.DIAMOND);
+                        entries.add(ModItems.METAL_DETECTOR);
                     }).build());
 
     public static void registerItemGroups() {
