@@ -13,6 +13,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import us.spaghetti.TutorialMod;
+import us.spaghetti.block.custom.SoundBlock;
 
 public class ModBlocks {
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
@@ -27,6 +28,11 @@ public static final Block NETHER_RUBY_ORE = registerBlock("nether_ruby_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), FabricBlockSettings.copyOf(Blocks.NETHER_QUARTZ_ORE)));
 public static final Block ENDSTONE_RUBY_ORE = registerBlock("endstone_ruby_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE)));
+
+public static final Block SOUND_BLOCK = registerBlock("sound_block",
+        new SoundBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).sounds(BlockSoundGroup.WOOL)));
+
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

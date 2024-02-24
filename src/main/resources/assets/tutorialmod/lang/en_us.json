@@ -11,6 +11,7 @@
   "block.tutorialmod.endstone_ruby_ore": "Endstone Ruby Ore",
 
   "block.tutorialmod.metal_detector": "Metal Detector",
+  "tooltip.tutorialmod.metal_detector.tooltip": "Finds valuables underground",
 
   "itemGroup.ruby": "Ruby Tutorial Group"
 }
